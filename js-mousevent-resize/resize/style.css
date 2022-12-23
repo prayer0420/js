@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.bigScreen {
+  background-color: blueviolet;
+}
+
+.mediumScreen {
+  background-color: yellow;
+}
+
+.smallScreen {
+  background-color: blue;
+}
+h2 {
+  color: white;
+}

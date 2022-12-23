@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="a">Random Number Game</h1>
+    <h3></h3>
+    <form id="setting">
+      <label for="maxnumber">Gnerate a number between 0 and</label>
+      <input
+        id="maxnumber"
+        type="number"
+        required
+        min="0"
+        placeholder="양수만 입력하세요"
+      />
+    </form>
+
+    <h3></h3>
+    <form id="user">
+      <label for="usernumber">Guess the number:</label>
+      <input id="usernumber" type="number" required min="0" />
+      <input type="submit" value="Play!" />
+    </form>
+    <div id="resultmsg">
+      <h4></h4>
+      <span id="msg"></span>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

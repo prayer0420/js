@@ -1,0 +1,13 @@
+#setting > label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#resultmsg > h4 {
+  font-weight: 500;
+}
+
+#resultmsg > span {
+  font-weight: bold;
+  font-size: 21px;
+}
